@@ -12,7 +12,8 @@ Data informada pelo estudante: **14/10/2026**. Confira a data e o horário exato
 - [x] Documentar lógica, características e limitações no README.
 - [x] Validar execução no simulador Wokwi, incluindo polaridade do relé no circuito atual.
 - [ ] Inserir **imagem real** do circuito e das conexões no README.
-- [ ] Organizar e publicar os fontes (`sketch.ino`, `diagram.json`, `libraries.txt`, README e imagem) em repositório GitHub.
+- [x] Publicar `sketch.ino`, `diagram.json`, `libraries.txt`, README e guias no [repositório privado do Trabalho 1](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
+- [ ] Adicionar a imagem do circuito também ao repositório e garantir acesso do professor ao link antes da entrega.
 - [ ] Incluir no repositório o link para vídeo **não listado no YouTube, com até 5 minutos**, demonstrando funcionamento completo.
 - [ ] Confirmar o formato exigido para o upload no portal, revisar os links e entregar antes do prazo.
 - [ ] Não alterar o repositório após a data da entrega no portal, conforme o enunciado.
