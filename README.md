@@ -1,6 +1,6 @@
 # FarmTech Solutions — irrigação simulada de alface
 
-> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos estão no [repositório GitHub privado](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao). Ainda faltam salvar uma imagem real da simulação no README, gravar o vídeo, garantir acesso do professor ao repositório e enviar o link/arquivo solicitado no portal.
+> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos e uma captura do circuito estão no [repositório GitHub privado](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao). Ainda faltam gravar o vídeo, garantir acesso do professor ao repositório e enviar o link/arquivo solicitado no portal.
 
 ## Ideia em 1 minuto
 
@@ -73,12 +73,16 @@ O código compilou no Wokwi com a biblioteca `DHT sensor library for ESPx`. O Mo
 
 O cenário de **leitura inválida do DHT22** tem desligamento programado, mas ainda não foi provocado e observado na interface do simulador.
 
-> **Imagem obrigatória para a entrega:** no Wokwi, enquadre o circuito para mostrar todas as peças e os fios; no Windows, use **Win+Shift+S** e salve a captura em `docs/circuito-wokwi.png`. Incorpore-a aqui com `![Circuito no Wokwi](docs/circuito-wokwi.png)`. Ainda não há arquivo de imagem salvo neste protótipo local.
+### Captura do circuito no Wokwi
+
+![Circuito ESP32 com botões N, P e K, LDR, DHT22, relé e LED de bomba no Wokwi](docs/circuito-wokwi.png)
+
+As conexões de cada componente são detalhadas na tabela acima e no arquivo [`diagram.json`](diagram.json). A captura documenta o circuito; os estados de irrigação são demonstrados pelos testes e pelo vídeo de entrega.
 
 ## Evidências e publicação
 
 - [x] Executar e validar os cenários principais no Wokwi. **O enunciado recebido não exige link do Wokwi**; os arquivos locais permitem remontar a simulação.
-- [ ] Inserir neste README a imagem real das conexões do Wokwi.
+- [x] Inserir neste README a imagem real das conexões do Wokwi.
 - [x] Publicar os arquivos de texto em um repositório GitHub privado: [Minhoquinha007/fiap-fase2-projeto2-irrigacao](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
 - [ ] Antes da entrega, garantir que o professor consiga acessar o repositório pelo link (por exemplo, torná-lo público quando o material estiver finalizado ou usar um acesso privado aceito pelo curso).
 - [ ] Gravar um vídeo **não listado** no YouTube, com no máximo 5 minutos, mostrando circuito, leitura dos botões/LDR/DHT22 e o relé ligando/desligando. Adicionar o link aqui: **pendente**.
@@ -93,4 +97,3 @@ O trabalho permite grupo de **1 a 5 estudantes**; este protótipo foi organizado
 - [Wokwi — ESP32](https://docs.wokwi.com/parts/wokwi-esp32-devkit-v1), [DHT22](https://docs.wokwi.com/parts/wokwi-dht22), [LDR](https://docs.wokwi.com/parts/wokwi-photoresistor-sensor), [botão](https://docs.wokwi.com/parts/wokwi-pushbutton) e [módulo relé](https://docs.wokwi.com/parts/wokwi-relay-module)
 - [Espressif — leitura analógica no Arduino-ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html)
 - [Incaper — *Cultura da Alface*, capítulo 4](https://biblioteca.incaper.es.gov.br/digital/handle/item/4195)
-
