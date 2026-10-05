@@ -1,6 +1,6 @@
 # FarmTech Solutions — irrigação simulada de alface
 
-> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Ainda faltam salvar uma imagem real da simulação no README, publicar o repositório no GitHub, gravar o vídeo e enviar o link/arquivo solicitado no portal.
+> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos estão no [repositório GitHub privado](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao). Ainda faltam salvar uma imagem real da simulação no README, gravar o vídeo, garantir acesso do professor ao repositório e enviar o link/arquivo solicitado no portal.
 
 ## Ideia em 1 minuto
 
@@ -79,7 +79,8 @@ O cenário de **leitura inválida do DHT22** tem desligamento programado, mas ai
 
 - [x] Executar e validar os cenários principais no Wokwi. **O enunciado recebido não exige link do Wokwi**; os arquivos locais permitem remontar a simulação.
 - [ ] Inserir neste README a imagem real das conexões do Wokwi.
-- [ ] Publicar estes arquivos em um repositório GitHub do trabalho. Link: **pendente**.
+- [x] Publicar os arquivos de texto em um repositório GitHub privado: [Minhoquinha007/fiap-fase2-projeto2-irrigacao](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
+- [ ] Antes da entrega, garantir que o professor consiga acessar o repositório pelo link (por exemplo, torná-lo público quando o material estiver finalizado ou usar um acesso privado aceito pelo curso).
 - [ ] Gravar um vídeo **não listado** no YouTube, com no máximo 5 minutos, mostrando circuito, leitura dos botões/LDR/DHT22 e o relé ligando/desligando. Adicionar o link aqui: **pendente**.
 - [ ] Verificar no portal qual arquivo ou link deve ser enviado; conferir antes do envio e não deixar para os últimos minutos.
 - [ ] Após a data de entrega no portal, **não alterar o repositório**, conforme a instrução do enunciado.
