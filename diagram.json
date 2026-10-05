@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "author": "Projeto FIAP - FarmTech Solutions",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -14, "left": 0, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "botaoN", "top": -172, "left": -316, "attrs": { "color": "green", "label": "N", "key": "N", "bounce": "0" } },
+    { "type": "wokwi-pushbutton", "id": "botaoP", "top": -64, "left": -316, "attrs": { "color": "green", "label": "P", "key": "P", "bounce": "0" } },
+    { "type": "wokwi-pushbutton", "id": "botaoK", "top": 44, "left": -316, "attrs": { "color": "green", "label": "K", "key": "K", "bounce": "0" } },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr", "top": -207, "left": 303, "attrs": { "lux": "500" } },
+    { "type": "wokwi-dht22", "id": "dht", "top": -44, "left": 322, "attrs": { "humidity": "60", "temperature": "24" } },
+    { "type": "wokwi-relay-module", "id": "rele", "top": 132, "left": 303, "attrs": { "transistor": "npn" } },
+    { "type": "wokwi-resistor", "id": "resistorLed", "top": 173, "left": 521, "attrs": { "value": "220" } },
+    { "type": "wokwi-led", "id": "ledBomba", "top": 157, "left": 622, "attrs": { "color": "blue", "label": "BOMBA (simulada)" } }
+  ],
+  "connections": [
+    ["esp:TX0", "$serialMonitor:RX", "", []],
+    ["esp:RX0", "$serialMonitor:TX", "", []],
+    ["botaoN:1.l", "esp:D13", "green", []],
+    ["botaoN:2.l", "esp:GND.2", "black", []],
+    ["botaoP:1.l", "esp:D14", "green", []],
+    ["botaoP:2.l", "esp:GND.2", "black", []],
+    ["botaoK:1.l", "esp:D27", "green", []],
+    ["botaoK:2.l", "esp:GND.2", "black", []],
+    ["ldr:VCC", "esp:3V3", "red", []],
+    ["ldr:GND", "esp:GND.1", "black", []],
+    ["ldr:AO", "esp:D34", "orange", []],
+    ["dht:VCC", "esp:3V3", "red", []],
+    ["dht:GND", "esp:GND.1", "black", []],
+    ["dht:SDA", "esp:D18", "yellow", []],
+    ["rele:VCC", "esp:VIN", "red", []],
+    ["rele:GND", "esp:GND.1", "black", []],
+    ["rele:IN", "esp:D26", "blue", []],
+    ["rele:COM", "esp:3V3", "red", []],
+    ["rele:NO", "resistorLed:1", "blue", []],
+    ["resistorLed:2", "ledBomba:A", "blue", []],
+    ["ledBomba:C", "esp:GND.1", "black", []]
+  ],
+  "dependencies": {}
+}
+
