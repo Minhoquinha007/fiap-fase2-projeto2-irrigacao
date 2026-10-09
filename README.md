@@ -1,6 +1,6 @@
 # FarmTech Solutions — irrigação simulada de alface
 
-> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos e uma captura do circuito estão no [repositório GitHub privado](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao). Ainda faltam gravar o vídeo, garantir acesso do professor ao repositório e enviar o link/arquivo solicitado no portal.
+> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos, a captura do circuito e o vídeo de demonstração estão no [repositório GitHub privado](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao). Antes da entrega, ainda é necessário garantir acesso do professor ao repositório, revisar a demonstração e enviar o link/arquivo solicitado no portal.
 
 ## Ideia em 1 minuto
 
@@ -85,7 +85,8 @@ As conexões de cada componente são detalhadas na tabela acima e no arquivo [`d
 - [x] Inserir neste README a imagem real das conexões do Wokwi.
 - [x] Publicar os arquivos de texto em um repositório GitHub privado: [Minhoquinha007/fiap-fase2-projeto2-irrigacao](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
 - [ ] Antes da entrega, garantir que o professor consiga acessar o repositório pelo link (por exemplo, torná-lo público quando o material estiver finalizado ou usar um acesso privado aceito pelo curso).
-- [ ] Gravar um vídeo **não listado** no YouTube, com no máximo 5 minutos, mostrando circuito, leitura dos botões/LDR/DHT22 e o relé ligando/desligando. Adicionar o link aqui: **pendente**.
+- [x] [Vídeo de demonstração no YouTube](https://youtu.be/WpW4bNwpo0I), **não listado**, duração **3 min 47 s** (visibilidade e duração conferidas em 09/10/2026).
+- [ ] Fazer uma revisão final do vídeo antes da entrega: confirmar que o áudio e a tela mostram com clareza o circuito, os botões/LDR/DHT22 e o relé ligando e desligando.
 - [ ] Verificar no portal qual arquivo ou link deve ser enviado; conferir antes do envio e não deixar para os últimos minutos.
 - [ ] Após a data de entrega no portal, **não alterar o repositório**, conforme a instrução do enunciado.
 
@@ -97,3 +98,4 @@ O trabalho permite grupo de **1 a 5 estudantes**; este protótipo foi organizado
 - [Wokwi — ESP32](https://docs.wokwi.com/parts/wokwi-esp32-devkit-v1), [DHT22](https://docs.wokwi.com/parts/wokwi-dht22), [LDR](https://docs.wokwi.com/parts/wokwi-photoresistor-sensor), [botão](https://docs.wokwi.com/parts/wokwi-pushbutton) e [módulo relé](https://docs.wokwi.com/parts/wokwi-relay-module)
 - [Espressif — leitura analógica no Arduino-ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html)
 - [Incaper — *Cultura da Alface*, capítulo 4](https://biblioteca.incaper.es.gov.br/digital/handle/item/4195)
+
