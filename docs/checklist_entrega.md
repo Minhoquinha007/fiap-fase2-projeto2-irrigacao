@@ -15,7 +15,8 @@ Data informada pelo estudante: **14/10/2026**. Confira a data e o horário exato
 - [x] Publicar `sketch.ino`, `diagram.json`, `libraries.txt`, README e guias no [repositório privado do Trabalho 1](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
 - [x] Adicionar a imagem do circuito também ao repositório.
 - [ ] Garantir acesso do professor ao link antes da entrega (o repositório ainda é privado).
-- [ ] Incluir no repositório o link para vídeo **não listado no YouTube, com até 5 minutos**, demonstrando funcionamento completo.
+- [x] Incluir no repositório o [link para vídeo não listado no YouTube](https://youtu.be/WpW4bNwpo0I), com **3 min 47 s**.
+- [ ] Revisar áudio e imagens do vídeo para confirmar que todos os testes exigidos aparecem com clareza.
 - [ ] Confirmar o formato exigido para o upload no portal, revisar os links e entregar antes do prazo.
 - [ ] Não alterar o repositório após a data da entrega no portal, conforme o enunciado.
 
@@ -25,3 +26,4 @@ Data informada pelo estudante: **14/10/2026**. Confira a data e o horário exato
 - [ ] Fazer uma análise estatística em R relacionada à irrigação.
 
 O enunciado permite trabalho individual (grupos de 1 a 5). Não assuma que os opcionais são exigência para concluir o primeiro trabalho.
+
