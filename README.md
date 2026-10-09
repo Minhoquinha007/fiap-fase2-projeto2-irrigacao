@@ -1,6 +1,6 @@
 # FarmTech Solutions — irrigação simulada de alface
 
-> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos, a captura do circuito e o vídeo de demonstração estão no [repositório GitHub privado](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao). Antes da entrega, ainda é necessário garantir acesso do professor ao repositório, revisar a demonstração e enviar o link/arquivo solicitado no portal.
+> **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos, a captura do circuito e o vídeo de demonstração estão no [repositório GitHub público](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao), acessível aos professores pelo link. Antes da entrega, ainda é necessário revisar a demonstração e enviar o link/arquivo solicitado no portal.
 
 ## Ideia em 1 minuto
 
@@ -83,8 +83,8 @@ As conexões de cada componente são detalhadas na tabela acima e no arquivo [`d
 
 - [x] Executar e validar os cenários principais no Wokwi. **O enunciado recebido não exige link do Wokwi**; os arquivos locais permitem remontar a simulação.
 - [x] Inserir neste README a imagem real das conexões do Wokwi.
-- [x] Publicar os arquivos de texto em um repositório GitHub privado: [Minhoquinha007/fiap-fase2-projeto2-irrigacao](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
-- [ ] Antes da entrega, garantir que o professor consiga acessar o repositório pelo link (por exemplo, torná-lo público quando o material estiver finalizado ou usar um acesso privado aceito pelo curso).
+- [x] Publicar os arquivos de texto em um repositório GitHub: [Minhoquinha007/fiap-fase2-projeto2-irrigacao](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
+- [x] Tornar o repositório público para que os professores consigam acessá-lo pelo link (visibilidade confirmada em 09/10/2026).
 - [x] [Vídeo de demonstração no YouTube](https://youtu.be/WpW4bNwpo0I), **não listado**, duração **3 min 47 s** (visibilidade e duração conferidas em 09/10/2026).
 - [ ] Fazer uma revisão final do vídeo antes da entrega: confirmar que o áudio e a tela mostram com clareza o circuito, os botões/LDR/DHT22 e o relé ligando e desligando.
 - [ ] Verificar no portal qual arquivo ou link deve ser enviado; conferir antes do envio e não deixar para os últimos minutos.
