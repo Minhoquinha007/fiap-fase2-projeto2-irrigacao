@@ -1,5 +1,10 @@
 # FarmTech Solutions — irrigação simulada de alface
 
+## Acompanhamento acadêmico
+
+- Tutor(a): Sabrina Otoni
+- Coordenador(a): André Godoi
+
 > **Estado do trabalho:** código compilado e circuito testado no Wokwi em 05/10/2026. Os arquivos, a captura do circuito e o vídeo de demonstração estão no [repositório GitHub público](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao), acessível aos professores pelo link. Antes da entrega, ainda é necessário revisar a demonstração e enviar o link/arquivo solicitado no portal.
 
 ## Ideia em 1 minuto
