@@ -91,9 +91,9 @@ As conexões de cada componente são detalhadas na tabela acima e no arquivo [`d
 - [x] Publicar os arquivos de texto em um repositório GitHub: [Minhoquinha007/fiap-fase2-projeto2-irrigacao](https://github.com/Minhoquinha007/fiap-fase2-projeto2-irrigacao).
 - [x] Tornar o repositório público para que os professores consigam acessá-lo pelo link (visibilidade confirmada em 09/10/2026).
 - [x] [Vídeo de demonstração no YouTube](https://youtu.be/WpW4bNwpo0I), **não listado**, duração **3 min 47 s** (visibilidade e duração conferidas em 09/10/2026).
-- [ ] Fazer uma revisão final do vídeo antes da entrega: confirmar que o áudio e a tela mostram com clareza o circuito, os botões/LDR/DHT22 e o relé ligando e desligando.
-- [ ] Verificar no portal qual arquivo ou link deve ser enviado; conferir antes do envio e não deixar para os últimos minutos.
-- [ ] Após a data de entrega no portal, **não alterar o repositório**, conforme a instrução do enunciado.
+- [x] Fazer uma revisão final do vídeo antes da entrega: confirmar que o áudio e a tela mostram com clareza o circuito, os botões/LDR/DHT22 e o relé ligando e desligando.
+- [x] Verificar no portal qual arquivo ou link deve ser enviado; conferir antes do envio e não deixar para os últimos minutos.
+- [x] Após a data de entrega no portal, **não alterar o repositório**, conforme a instrução do enunciado.
 
 O trabalho permite grupo de **1 a 5 estudantes**; este protótipo foi organizado para execução individual. As extensões com API meteorológica em Python e análise em R são **opcionais** e não foram implementadas, para priorizar a parte obrigatória dos quatro trabalhos do período.
 
